@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#parent {
+  position: relative;
+}
+
+.game-over {
+  padding: 50px;
+  background-color: tomato;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  display: none;
+}
+
+.victory {
+  padding: 50px;
+  background-color: tomato;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  display: none;
+}
+
+.reset {
+  position: absolute;
+  margin-left: 50px;
+}
